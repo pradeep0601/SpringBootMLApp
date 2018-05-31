@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.aricent.hack4.smartshopping.model.User;
 import com.aricent.hack4.smartshopping.repository.UserRepository;
+import com.aricent.hack4.smartshopping.util.RecommendationEngine;
 import com.aricent.hack4.smartshopping.util.UserUtil;
 import com.aricent.hack4.smartshopping.util.UserUtil.UserField;
 
@@ -45,6 +46,18 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public List<User> getAllUser() {
 		return repository.findAll();
+	}
+
+	@Override
+	public List<String> getRecommendations(String selectedItems) {
+		List<String> result = null;
+		try {
+			result = RecommendationEngine.recommend(selectedItems);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 }

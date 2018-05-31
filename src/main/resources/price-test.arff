@@ -1,0 +1,13 @@
+@relation price
+
+%@attribute user-id numeric
+@attribute product-id numeric
+@attribute month numeric
+@attribute price-per-unit numeric
+
+
+@data
+1,7,?
+1,3,70
+1,12,?
+1,1,?

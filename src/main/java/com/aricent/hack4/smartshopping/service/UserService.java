@@ -12,4 +12,5 @@ public interface UserService {
 	public User deleteUser(User user);
 	public User getUser(UserUtil.UserField userField);
 	public List<User> getAllUser();
+	public List<String> getRecommendations(String selectedItems);
 }

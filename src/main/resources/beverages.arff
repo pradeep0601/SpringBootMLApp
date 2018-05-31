@@ -1,0 +1,19 @@
+@relation beverage
+@attribute coke{0,1}
+@attribute pepsi{0,1}
+@attribute limca{0,1}
+@attribute coffee{0,1}
+@attribute tea{0,1}
+@attribute Frooti{0,1}
+@attribute Maaza{0,1}
+@data
+1,0,0,1,0,1,0
+0,0,1,0,1,0,0
+0,1,0,0,0,0,1
+1,1,1,0,0,1,0
+1,0,0,1,1,1,0
+0,0,0,0,0,1,1
+1,1,0,0,0,0,0
+1,1,1,1,1,1,1
+0,0,0,1,1,0,0
+0,0,0,1,1,0,0

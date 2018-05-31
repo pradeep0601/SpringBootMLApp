@@ -1,0 +1,210 @@
+{
+	"header" : {
+		"relation" : "beverage",
+		"attributes" : [
+			{
+				"name" : "coke",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "pepsi",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "limca",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "coffee",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "tea",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "Frooti",
+				"type" : "nominal",
+				"class" : false,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			},
+			{
+				"name" : "Maaza",
+				"type" : "nominal",
+				"class" : true,
+				"weight" : 1.0,
+				"labels" : [
+					"0",
+					"1"
+				]
+			}
+		]
+	},
+	"data" : [
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"1",
+				"0",
+				"0",
+				"1",
+				"0",
+				"1",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"0",
+				"0",
+				"1",
+				"0",
+				"1",
+				"0",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"0",
+				"1",
+				"0",
+				"0",
+				"0",
+				"0",
+				"1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"1",
+				"1",
+				"1",
+				"0",
+				"0",
+				"1",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"1",
+				"0",
+				"0",
+				"1",
+				"1",
+				"1",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"0",
+				"0",
+				"0",
+				"0",
+				"0",
+				"1",
+				"1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"1",
+				"1",
+				"0",
+				"0",
+				"0",
+				"0",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"1",
+				"1",
+				"1",
+				"1",
+				"1",
+				"1",
+				"1"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"0",
+				"0",
+				"0",
+				"1",
+				"1",
+				"0",
+				"0"
+			]
+		},
+		{
+			"sparse" : false,
+			"weight" : 1.0,
+			"values" : [
+				"0",
+				"0",
+				"0",
+				"1",
+				"1",
+				"0",
+				"0"
+			]
+		}
+	]
+}
+
